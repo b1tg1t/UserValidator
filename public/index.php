@@ -1,5 +1,5 @@
 <?php
-    require_once('Core/UserValidator.php');
+    require('../src/UserValidator.php');
 
     $validator = new UserValidator();
     $email = 'u53r.n4m3@s0m3.3x4mp7e.com';
